@@ -1,0 +1,15 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 10px;
+}
+
+table.scoreboard tr > td:first-child {
+    text-align: right;
+}
