@@ -1,0 +1,35 @@
+{
+  "id": 12,
+  "robots": [
+    {"id": "polva-passat", "name": "Põlva Passat"},
+    {"id": "1_9-tdi", "name": "1.9 TDI"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-1.28, -0.81],
+    [1.28, 0.81],
+    [-1.65, 1.24],
+    [1.65, -1.24],
+    [2.04, 0.48],
+    [-2.04, -0.48],
+    [-2.09, 1.26],
+    [2.09, -1.26],
+    [0.16, 0.44],
+    [-0.16, -0.44]
+  ]
+}
