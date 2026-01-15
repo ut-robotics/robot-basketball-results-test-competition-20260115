@@ -1055,16 +1055,19 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [
+              [{"time": 1768502263105, "isValid": true}],
+              [{"time": 1768502257290, "isValid": true}]
+            ],
             "fouls": [[], []],
-            "readyStates": [false, false],
+            "readyStates": [true, true],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 15721,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1768502247387, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1147,98 +1150,44 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 11,
+    "id": 12,
     "robots": [
-      {"id": "robotina-robotica", "name": "Robotina Robotica"},
-      {"id": "hugo-toom", "name": "Hugo Toom"}
+      {"id": "polva-passat", "name": "Põlva Passat"},
+      {"id": "1_9-tdi", "name": "1.9 TDI"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [
-          [
-            {"time": 1768501930908, "isValid": true},
-            {"time": 1768501937055, "isValid": true},
-            {"time": 1768501941435, "isValid": true}
-          ],
-          [
-            {"time": 1768501937374, "isValid": true},
-            {"time": 1768501974197, "isValid": true},
-            {"time": 1768501984563, "isValid": true},
-            {"time": 1768501993162, "isValid": true}
-          ]
+          [{"time": 1768502263105, "isValid": true}],
+          [{"time": 1768502257290, "isValid": true}]
         ],
-        "fouls": [[{"time": 1768501949201, "isValid": true}], []],
+        "fouls": [[], []],
         "readyStates": [true, true],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 47464,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 15723,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1768501923379, "endTime": 1768501944875},
-          {"startTime": 1768501969084, "endTime": 1768501995052}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1768502062896, "isValid": true},
-            {"time": 1768502099480, "isValid": true}
-          ],
-          [
-            {"time": 1768502053269, "isValid": true},
-            {"time": 1768502059616, "isValid": true},
-            {"time": 1768502065135, "isValid": true},
-            {"time": 1768502094269, "isValid": true},
-            {"time": 1768502102143, "isValid": true},
-            {"time": 1768502145669, "isValid": true}
-          ]
-        ],
-        "fouls": [
-          [
-            {"time": 1768502068944, "isValid": true},
-            {"time": 1768502110889, "isValid": true}
-          ],
-          [{"time": 1768502151758, "isValid": true}]
-        ],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60007,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1768502043828, "endTime": 1768502063851},
-          {"startTime": 1768502086771, "endTime": 1768502107148},
-          {"startTime": 1768502138571, "endTime": 1768502148123},
-          {"startTime": 1768502173557, "endTime": 1768502183612}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1768502247387, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "hugo-toom", "name": "Hugo Toom"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-1.82, -0.23],
-      [1.82, 0.23],
-      [-1.46, 0.66],
-      [1.46, -0.66],
-      [0.35, 0.26],
-      [-0.35, -0.26],
-      [-1.18, 0.6],
-      [1.18, -0.6],
-      [1.9, -1.36],
-      [-1.9, 1.36]
+      [-1.28, -0.81],
+      [1.28, 0.81],
+      [-1.65, 1.24],
+      [1.65, -1.24],
+      [2.04, 0.48],
+      [-2.04, -0.48],
+      [-2.09, 1.26],
+      [2.09, -1.26],
+      [0.16, 0.44],
+      [-0.16, -0.44]
     ]
   }
 }
