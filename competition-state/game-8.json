@@ -1,0 +1,35 @@
+{
+  "id": 8,
+  "robots": [
+    {"id": "polva-passat", "name": "Põlva Passat"},
+    {"id": "robotina-robotica", "name": "Robotina Robotica"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-0.17, -0.33],
+    [0.17, 0.33],
+    [0.69, -0.54],
+    [-0.69, 0.54],
+    [-1.95, 1.3],
+    [1.95, -1.3],
+    [1.79, -0.51],
+    [-1.79, 0.51],
+    [0.06, -0.68],
+    [-0.06, 0.68]
+  ]
+}

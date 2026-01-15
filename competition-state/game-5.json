@@ -1,0 +1,35 @@
+{
+  "id": 5,
+  "robots": [
+    {"id": "zz", "name": "Zorg en Zekerheid"},
+    {"id": "imbi", "name": "Imbi"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.53, 0.98],
+    [-0.53, -0.98],
+    [1.42, -0.85],
+    [-1.42, 0.85],
+    [0.2, 1.19],
+    [-0.2, -1.19],
+    [0.96, 0.56],
+    [-0.96, -0.56],
+    [1.91, -1.36],
+    [-1.91, 1.36]
+  ]
+}

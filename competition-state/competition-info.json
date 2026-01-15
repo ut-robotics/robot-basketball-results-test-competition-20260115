@@ -28,17 +28,17 @@
       {"id": "robotina-robotica", "name": "Robotina Robotica"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3, 4],
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8],
     "byes": [],
     "robotStartingBaskets": {
-      "bbatc": ["blue"],
-      "larry-bird": ["magenta"],
-      "1_9-tdi": ["blue"],
-      "hugo-toom": ["magenta"],
-      "polva-passat": ["blue"],
-      "zz": ["magenta"],
-      "imbi": ["blue"],
-      "robotina-robotica": ["magenta"]
+      "bbatc": ["blue", "magenta"],
+      "larry-bird": ["magenta", "magenta"],
+      "1_9-tdi": ["blue", "blue"],
+      "hugo-toom": ["magenta", "blue"],
+      "polva-passat": ["blue", "magenta"],
+      "zz": ["magenta", "blue"],
+      "imbi": ["blue", "magenta"],
+      "robotina-robotica": ["magenta", "blue"]
     },
     "hasEnded": false
   }
