@@ -63,7 +63,8 @@
       "runs": [
         {"startTime": 1768502043828, "endTime": 1768502063851},
         {"startTime": 1768502086771, "endTime": 1768502107148},
-        {"startTime": 1768502138571, "endTime": 1768502148123}
+        {"startTime": 1768502138571, "endTime": 1768502148123},
+        {"startTime": 1768502173557, "endTime": null}
       ]
     }
   ],
