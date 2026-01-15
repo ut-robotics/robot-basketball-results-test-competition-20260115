@@ -11,7 +11,7 @@
     {
       "scores": [[], []],
       "fouls": [[], []],
-      "readyStates": [true, true],
+      "readyStates": [false, false],
       "baskets": ["blue", "magenta"],
       "hasEnded": false,
       "isConfirmed": false,
