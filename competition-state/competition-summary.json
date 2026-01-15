@@ -390,7 +390,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -424,25 +424,32 @@
               [
                 {"time": 1768499612652, "isValid": true},
                 {"time": 1768499619271, "isValid": true},
-                {"time": 1768499624783, "isValid": true}
+                {"time": 1768499624783, "isValid": true},
+                {"time": 1768499657034, "isValid": false}
               ],
               [{"time": 1768499636693, "isValid": true}]
             ],
             "fouls": [[{"time": 1768499548963, "isValid": true}], []],
             "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 37838,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60002,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [
               {"startTime": 1768499537755, "endTime": 1768499543539},
-              {"startTime": 1768499604643, "endTime": null}
+              {"startTime": 1768499604643, "endTime": 1768499658861}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "zz", "name": "Zorg en Zekerheid"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [0.53, 0.98],
@@ -577,49 +584,49 @@
       {
         "robot": {"id": "polva-passat", "name": "Põlva Passat"},
         "score": 1,
-        "tieBreakScore": 0,
+        "tieBreakScore": 1,
         "rank": 1
+      },
+      {
+        "robot": {"id": "zz", "name": "Zorg en Zekerheid"},
+        "score": 1,
+        "tieBreakScore": 1,
+        "rank": 2
       },
       {
         "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
         "score": 1,
         "tieBreakScore": 0,
-        "rank": 2
+        "rank": 3
       },
       {
         "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
         "score": 0.9,
         "tieBreakScore": 0.09999999999999998,
-        "rank": 3
+        "rank": 4
       },
       {
         "robot": {"id": "bbatc", "name": "BBATC"},
         "score": 0.8,
         "tieBreakScore": 0.19999999999999996,
-        "rank": 4
+        "rank": 5
       },
       {
         "robot": {"id": "larry-bird", "name": "Larry Bird"},
         "score": 0.19999999999999996,
         "tieBreakScore": 0.8,
-        "rank": 5
+        "rank": 6
       },
       {
         "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
         "score": 0.09999999999999998,
         "tieBreakScore": 0.9,
-        "rank": 6
-      },
-      {
-        "robot": {"id": "zz", "name": "Zorg en Zekerheid"},
-        "score": 0,
-        "tieBreakScore": 1,
         "rank": 7
       },
       {
         "robot": {"id": "imbi", "name": "Imbi"},
         "score": 0,
-        "tieBreakScore": 1,
+        "tieBreakScore": 2,
         "rank": 8
       }
     ],
@@ -643,7 +650,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -677,25 +684,32 @@
           [
             {"time": 1768499612652, "isValid": true},
             {"time": 1768499619271, "isValid": true},
-            {"time": 1768499624783, "isValid": true}
+            {"time": 1768499624783, "isValid": true},
+            {"time": 1768499657034, "isValid": false}
           ],
           [{"time": 1768499636693, "isValid": true}]
         ],
         "fouls": [[{"time": 1768499548963, "isValid": true}], []],
         "readyStates": [true, true],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 37838,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60002,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [
           {"startTime": 1768499537755, "endTime": 1768499543539},
-          {"startTime": 1768499604643, "endTime": null}
+          {"startTime": 1768499604643, "endTime": 1768499658861}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "zz", "name": "Zorg en Zekerheid"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [0.53, 0.98],
