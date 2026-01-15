@@ -245,7 +245,7 @@
           {
             "scores": [[], []],
             "fouls": [[], []],
-            "readyStates": [false, false],
+            "readyStates": [false, true],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
@@ -373,104 +373,41 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 2,
+    "id": 3,
     "robots": [
-      {"id": "1_9-tdi", "name": "1.9 TDI"},
-      {"id": "hugo-toom", "name": "Hugo Toom"}
+      {"id": "polva-passat", "name": "Põlva Passat"},
+      {"id": "zz", "name": "Zorg en Zekerheid"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1768498317275, "isValid": true},
-            {"time": 1768498325061, "isValid": true},
-            {"time": 1768498329981, "isValid": true}
-          ],
-          []
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [true, true],
+        "readyStates": [false, true],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60071,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1768498299898, "endTime": 1768498359969}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1768498479436, "isValid": true},
-            {"time": 1768498488622, "isValid": true},
-            {"time": 1768498500199, "isValid": true},
-            {"time": 1768498510444, "isValid": true},
-            {"time": 1768498517847, "isValid": true}
-          ],
-          [
-            {"time": 1768498473478, "isValid": true},
-            {"time": 1768498483018, "isValid": true},
-            {"time": 1768498491032, "isValid": true},
-            {"time": 1768498495244, "isValid": true},
-            {"time": 1768498505856, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60095,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1768498463667, "endTime": 1768498523762}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1768498616619, "isValid": true},
-            {"time": 1768498624395, "isValid": true},
-            {"time": 1768498631038, "isValid": true},
-            {"time": 1768498641048, "isValid": true}
-          ],
-          [
-            {"time": 1768498634495, "isValid": true},
-            {"time": 1768498648232, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60062,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1768498607042, "endTime": 1768498667104}]
+        "runs": []
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "1_9-tdi", "name": "1.9 TDI"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.32, -1.32],
-      [-1.32, 1.32],
-      [0.06, 0.47],
-      [-0.06, -0.47],
-      [0.52, -0.05],
-      [-0.52, 0.05],
-      [1.8, 0.46],
-      [-1.8, -0.46],
-      [-1.91, 0.93],
-      [1.91, -0.93]
+      [1.12, -1.2],
+      [-1.12, 1.2],
+      [1.45, 0.28],
+      [-1.45, -0.28],
+      [0.03, -1.31],
+      [-0.03, 1.31],
+      [1.23, -0.24],
+      [-1.23, 0.24],
+      [1.35, 0.01],
+      [-1.35, -0.01]
     ]
   }
 }
