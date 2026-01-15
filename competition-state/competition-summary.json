@@ -395,7 +395,7 @@
           {
             "scores": [[], []],
             "fouls": [[], []],
-            "readyStates": [false, false],
+            "readyStates": [true, false],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
@@ -599,84 +599,41 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 4,
+    "id": 5,
     "robots": [
-      {"id": "imbi", "name": "Imbi"},
-      {"id": "robotina-robotica", "name": "Robotina Robotica"}
+      {"id": "zz", "name": "Zorg en Zekerheid"},
+      {"id": "imbi", "name": "Imbi"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [],
-          [
-            {"time": 1768499067460, "isValid": true},
-            {"time": 1768499069797, "isValid": true},
-            {"time": 1768499083500, "isValid": true},
-            {"time": 1768499090637, "isValid": true},
-            {"time": 1768499099932, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [true, true],
+        "readyStates": [true, false],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60053,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 0,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1768499058658, "endTime": 1768499111810},
-          {"startTime": 1768499114250, "endTime": 1768499121151}
-        ]
-      },
-      {
-        "scores": [
-          [{"time": 1768499302362, "isValid": true}],
-          [
-            {"time": 1768499215569, "isValid": true},
-            {"time": 1768499219731, "isValid": true},
-            {"time": 1768499232723, "isValid": true},
-            {"time": 1768499290451, "isValid": true},
-            {"time": 1768499300427, "isValid": true},
-            {"time": 1768499307131, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1768499239481, "isValid": true}], []],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60100,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1768499209051, "endTime": 1768499232443},
-          {"startTime": 1768499284179, "endTime": 1768499320887}
-        ]
+        "winnerIndex": -1,
+        "runs": []
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "robotina-robotica", "name": "Robotina Robotica"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.41, 0.51],
-      [-1.41, -0.51],
-      [1.69, 1.2],
-      [-1.69, -1.2],
-      [-1.19, 0.15],
-      [1.19, -0.15],
-      [-0.1, 0.61],
-      [0.1, -0.61],
-      [0.22, -1.12],
-      [-0.22, 1.12]
+      [0.53, 0.98],
+      [-0.53, -0.98],
+      [1.42, -0.85],
+      [-1.42, 0.85],
+      [0.2, 1.19],
+      [-0.2, -1.19],
+      [0.96, 0.56],
+      [-0.96, -0.56],
+      [1.91, -1.36],
+      [-1.91, 1.36]
     ]
   }
 }
