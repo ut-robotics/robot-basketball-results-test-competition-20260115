@@ -794,7 +794,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [[{"time": 1768501192491, "isValid": true}], []],
@@ -828,24 +828,25 @@
               [{"time": 1768501471467, "isValid": true}],
               [
                 {"time": 1768501482495, "isValid": true},
-                {"time": 1768501500658, "isValid": true}
+                {"time": 1768501500658, "isValid": true},
+                {"time": 1768501510844, "isValid": true}
               ]
             ],
             "fouls": [[], [{"time": 1768501436816, "isValid": true}]],
             "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 40872,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60017,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 1,
             "runs": [
               {"startTime": 1768501424940, "endTime": 1768501430091},
-              {"startTime": 1768501464963, "endTime": null}
+              {"startTime": 1768501464963, "endTime": 1768501519829}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {"result": "tied"},
         "ballPlacement": [
           [0, 0],
           [-0.41, -1.03],
@@ -992,37 +993,37 @@
       {
         "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
         "score": 1.2,
-        "tieBreakScore": 1.8,
+        "tieBreakScore": 2.3,
         "rank": 3
       },
       {
         "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
         "score": 1.1,
-        "tieBreakScore": 2,
+        "tieBreakScore": 2.5,
         "rank": 4
       },
       {
         "robot": {"id": "zz", "name": "Zorg en Zekerheid"},
         "score": 1,
-        "tieBreakScore": 1.8,
+        "tieBreakScore": 2.3,
         "rank": 5
       },
       {
         "robot": {"id": "bbatc", "name": "BBATC"},
         "score": 0.9,
-        "tieBreakScore": 2,
+        "tieBreakScore": 2.5,
         "rank": 6
       },
       {
         "robot": {"id": "larry-bird", "name": "Larry Bird"},
-        "score": 0.19999999999999996,
-        "tieBreakScore": 2,
+        "score": 0.7,
+        "tieBreakScore": 2.5,
         "rank": 7
       },
       {
         "robot": {"id": "imbi", "name": "Imbi"},
-        "score": 0,
-        "tieBreakScore": 2.2,
+        "score": 0.5,
+        "tieBreakScore": 2.9000000000000004,
         "rank": 8
       }
     ],
@@ -1046,7 +1047,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [[{"time": 1768501192491, "isValid": true}], []],
@@ -1080,24 +1081,25 @@
           [{"time": 1768501471467, "isValid": true}],
           [
             {"time": 1768501482495, "isValid": true},
-            {"time": 1768501500658, "isValid": true}
+            {"time": 1768501500658, "isValid": true},
+            {"time": 1768501510844, "isValid": true}
           ]
         ],
         "fouls": [[], [{"time": 1768501436816, "isValid": true}]],
         "readyStates": [true, true],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 40874,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60017,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 1,
         "runs": [
           {"startTime": 1768501424940, "endTime": 1768501430091},
-          {"startTime": 1768501464963, "endTime": null}
+          {"startTime": 1768501464963, "endTime": 1768501519829}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {"result": "tied"},
     "ballPlacement": [
       [0, 0],
       [-0.41, -1.03],
