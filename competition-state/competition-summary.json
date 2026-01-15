@@ -139,7 +139,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -204,14 +204,20 @@
             "readyStates": [true, true],
             "baskets": ["blue", "magenta"],
             "hasEnded": true,
-            "isConfirmed": false,
+            "isConfirmed": true,
             "duration": 60062,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [{"startTime": 1768498607042, "endTime": 1768498667104}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "1_9-tdi", "name": "1.9 TDI"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 1
+        },
         "ballPlacement": [
           [0, 0],
           [1.32, -1.32],
@@ -306,27 +312,27 @@
     "byes": [],
     "robotScores": [
       {
+        "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
+        "score": 0.9,
+        "tieBreakScore": 0.09999999999999998,
+        "rank": 1
+      },
+      {
         "robot": {"id": "bbatc", "name": "BBATC"},
         "score": 0.8,
         "tieBreakScore": 0.19999999999999996,
-        "rank": 1
+        "rank": 2
       },
       {
         "robot": {"id": "larry-bird", "name": "Larry Bird"},
         "score": 0.19999999999999996,
         "tieBreakScore": 0.8,
-        "rank": 2
-      },
-      {
-        "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
-        "score": 0,
-        "tieBreakScore": 0,
         "rank": 3
       },
       {
         "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
-        "score": 0,
-        "tieBreakScore": 0,
+        "score": 0.09999999999999998,
+        "tieBreakScore": 0.9,
         "rank": 4
       },
       {
@@ -374,7 +380,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -439,14 +445,20 @@
         "readyStates": [true, true],
         "baskets": ["blue", "magenta"],
         "hasEnded": true,
-        "isConfirmed": false,
+        "isConfirmed": true,
         "duration": 60062,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [{"startTime": 1768498607042, "endTime": 1768498667104}]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "1_9-tdi", "name": "1.9 TDI"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 1
+    },
     "ballPlacement": [
       [0, 0],
       [1.32, -1.32],
