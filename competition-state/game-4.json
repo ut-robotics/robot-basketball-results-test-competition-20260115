@@ -33,7 +33,7 @@
     {
       "scores": [[], []],
       "fouls": [[], []],
-      "readyStates": [false, false],
+      "readyStates": [false, true],
       "baskets": ["magenta", "blue"],
       "hasEnded": false,
       "isConfirmed": false,
