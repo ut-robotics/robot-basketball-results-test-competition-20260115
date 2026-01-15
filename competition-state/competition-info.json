@@ -11,5 +11,35 @@
     {"id": "robotina-robotica", "name": "Robotina Robotica"},
     {"id": "zz", "name": "Zorg en Zekerheid"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "bbatc", "name": "BBATC"},
+      {"id": "larry-bird", "name": "Larry Bird"},
+      {"id": "1_9-tdi", "name": "1.9 TDI"},
+      {"id": "hugo-toom", "name": "Hugo Toom"},
+      {"id": "polva-passat", "name": "Põlva Passat"},
+      {"id": "zz", "name": "Zorg en Zekerheid"},
+      {"id": "imbi", "name": "Imbi"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"}
+    ],
+    "roundCount": 3,
+    "gameIDs": [1, 2, 3, 4],
+    "byes": [],
+    "robotStartingBaskets": {
+      "bbatc": ["blue"],
+      "larry-bird": ["magenta"],
+      "1_9-tdi": ["blue"],
+      "hugo-toom": ["magenta"],
+      "polva-passat": ["blue"],
+      "zz": ["magenta"],
+      "imbi": ["blue"],
+      "robotina-robotica": ["magenta"]
+    },
+    "hasEnded": false
+  }
 }

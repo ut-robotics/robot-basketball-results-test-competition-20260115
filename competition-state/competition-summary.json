@@ -11,5 +11,238 @@
     {"id": "robotina-robotica", "name": "Robotina Robotica"},
     {"id": "zz", "name": "Zorg en Zekerheid"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "bbatc", "name": "BBATC"},
+      {"id": "larry-bird", "name": "Larry Bird"},
+      {"id": "1_9-tdi", "name": "1.9 TDI"},
+      {"id": "hugo-toom", "name": "Hugo Toom"},
+      {"id": "polva-passat", "name": "Põlva Passat"},
+      {"id": "zz", "name": "Zorg en Zekerheid"},
+      {"id": "imbi", "name": "Imbi"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"}
+    ],
+    "roundCount": 3,
+    "games": [
+      {
+        "id": 1,
+        "robots": [
+          {"id": "bbatc", "name": "BBATC"},
+          {"id": "larry-bird", "name": "Larry Bird"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.24, -0.89],
+          [-0.24, 0.89],
+          [1.51, 0.31],
+          [-1.51, -0.31],
+          [0.97, -0.51],
+          [-0.97, 0.51],
+          [-1.22, -0.62],
+          [1.22, 0.62],
+          [0.66, -0.94],
+          [-0.66, 0.94]
+        ]
+      },
+      {
+        "id": 2,
+        "robots": [
+          {"id": "1_9-tdi", "name": "1.9 TDI"},
+          {"id": "hugo-toom", "name": "Hugo Toom"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.32, -1.32],
+          [-1.32, 1.32],
+          [0.06, 0.47],
+          [-0.06, -0.47],
+          [0.52, -0.05],
+          [-0.52, 0.05],
+          [1.8, 0.46],
+          [-1.8, -0.46],
+          [-1.91, 0.93],
+          [1.91, -0.93]
+        ]
+      },
+      {
+        "id": 3,
+        "robots": [
+          {"id": "polva-passat", "name": "Põlva Passat"},
+          {"id": "zz", "name": "Zorg en Zekerheid"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.12, -1.2],
+          [-1.12, 1.2],
+          [1.45, 0.28],
+          [-1.45, -0.28],
+          [0.03, -1.31],
+          [-0.03, 1.31],
+          [1.23, -0.24],
+          [-1.23, 0.24],
+          [1.35, 0.01],
+          [-1.35, -0.01]
+        ]
+      },
+      {
+        "id": 4,
+        "robots": [
+          {"id": "imbi", "name": "Imbi"},
+          {"id": "robotina-robotica", "name": "Robotina Robotica"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.41, 0.51],
+          [-1.41, -0.51],
+          [1.69, 1.2],
+          [-1.69, -1.2],
+          [-1.19, 0.15],
+          [1.19, -0.15],
+          [-0.1, 0.61],
+          [0.1, -0.61],
+          [0.22, -1.12],
+          [-0.22, 1.12]
+        ]
+      }
+    ],
+    "byes": [],
+    "robotScores": [
+      {
+        "robot": {"id": "bbatc", "name": "BBATC"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 1
+      },
+      {
+        "robot": {"id": "larry-bird", "name": "Larry Bird"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 2
+      },
+      {
+        "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 3
+      },
+      {
+        "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 4
+      },
+      {
+        "robot": {"id": "polva-passat", "name": "Põlva Passat"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 5
+      },
+      {
+        "robot": {"id": "zz", "name": "Zorg en Zekerheid"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 6
+      },
+      {
+        "robot": {"id": "imbi", "name": "Imbi"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 7
+      },
+      {
+        "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 8
+      }
+    ],
+    "robotStartingBaskets": {
+      "bbatc": ["blue"],
+      "larry-bird": ["magenta"],
+      "1_9-tdi": ["blue"],
+      "hugo-toom": ["magenta"],
+      "polva-passat": ["blue"],
+      "zz": ["magenta"],
+      "imbi": ["blue"],
+      "robotina-robotica": ["magenta"]
+    },
+    "hasEnded": false
+  }
 }

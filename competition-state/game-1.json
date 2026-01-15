@@ -1,0 +1,35 @@
+{
+  "id": 1,
+  "robots": [
+    {"id": "bbatc", "name": "BBATC"},
+    {"id": "larry-bird", "name": "Larry Bird"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.24, -0.89],
+    [-0.24, 0.89],
+    [1.51, 0.31],
+    [-1.51, -0.31],
+    [0.97, -0.51],
+    [-0.97, 0.51],
+    [-1.22, -0.62],
+    [1.22, 0.62],
+    [0.66, -0.94],
+    [-0.66, 0.94]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 2,
+  "robots": [
+    {"id": "1_9-tdi", "name": "1.9 TDI"},
+    {"id": "hugo-toom", "name": "Hugo Toom"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.32, -1.32],
+    [-1.32, 1.32],
+    [0.06, 0.47],
+    [-0.06, -0.47],
+    [0.52, -0.05],
+    [-0.52, 0.05],
+    [1.8, 0.46],
+    [-1.8, -0.46],
+    [-1.91, 0.93],
+    [1.91, -0.93]
+  ]
+}
