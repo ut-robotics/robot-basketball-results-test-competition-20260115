@@ -962,7 +962,7 @@
           {
             "scores": [[], []],
             "fouls": [[], []],
-            "readyStates": [false, false],
+            "readyStates": [true, false],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
@@ -1090,91 +1090,41 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 10,
+    "id": 11,
     "robots": [
-      {"id": "zz", "name": "Zorg en Zekerheid"},
-      {"id": "bbatc", "name": "BBATC"}
+      {"id": "robotina-robotica", "name": "Robotina Robotica"},
+      {"id": "hugo-toom", "name": "Hugo Toom"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1768501592321, "isValid": true},
-            {"time": 1768501601837, "isValid": true},
-            {"time": 1768501617527, "isValid": true}
-          ],
-          [
-            {"time": 1768501595717, "isValid": true},
-            {"time": 1768501602946, "isValid": true},
-            {"time": 1768501625356, "isValid": true},
-            {"time": 1768501635940, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60015,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1768501580795, "endTime": 1768501640810}]
-      },
-      {
-        "scores": [[], [{"time": 1768501714587, "isValid": false}]],
-        "fouls": [[], []],
-        "readyStates": [true, true],
+        "readyStates": [true, false],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60027,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1768501693659, "endTime": 1768501753686}]
-      },
-      {
-        "scores": [
-          [],
-          [
-            {"time": 1768501818561, "isValid": true},
-            {"time": 1768501824284, "isValid": true},
-            {"time": 1768501847022, "isValid": true},
-            {"time": 1768501857046, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60087,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1768501795837, "endTime": 1768501855924}]
+        "runs": []
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "bbatc", "name": "BBATC"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.76, -1.2],
-      [0.76, 1.2],
-      [1.16, -0.46],
-      [-1.16, 0.46],
-      [0.46, -0.6],
-      [-0.46, 0.6],
-      [-1.66, -0.86],
-      [1.66, 0.86],
-      [-0.09, -1.09],
-      [0.09, 1.09]
+      [-1.82, -0.23],
+      [1.82, 0.23],
+      [-1.46, 0.66],
+      [1.46, -0.66],
+      [0.35, 0.26],
+      [-0.35, -0.26],
+      [-1.18, 0.6],
+      [1.18, -0.6],
+      [1.9, -1.36],
+      [-1.9, 1.36]
     ]
   }
 }
