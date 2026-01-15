@@ -77,15 +77,27 @@
             "fouls": [[], [{"time": 1768498086655, "isValid": true}]],
             "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 38638,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60028,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [
               {"startTime": 1768498042042, "endTime": 1768498080674},
-              {"startTime": 1768498109772, "endTime": null}
+              {"startTime": 1768498109772, "endTime": 1768498131168}
             ]
+          },
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
           }
         ],
         "status": {"result": "unknown"},
@@ -329,15 +341,27 @@
         "fouls": [[], [{"time": 1768498086655, "isValid": true}]],
         "readyStates": [true, true],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 38638,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60028,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [
           {"startTime": 1768498042042, "endTime": 1768498080674},
-          {"startTime": 1768498109772, "endTime": null}
+          {"startTime": 1768498109772, "endTime": 1768498131168}
         ]
+      },
+      {
+        "scores": [[], []],
+        "fouls": [[], []],
+        "readyStates": [false, false],
+        "baskets": ["blue", "magenta"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 0,
+        "timeLimit": 60000,
+        "winnerIndex": -1,
+        "runs": []
       }
     ],
     "status": {"result": "unknown"},
