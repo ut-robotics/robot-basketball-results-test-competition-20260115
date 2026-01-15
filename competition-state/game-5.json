@@ -40,7 +40,7 @@
           {"time": 1768499619271, "isValid": true},
           {"time": 1768499624783, "isValid": true}
         ],
-        []
+        [{"time": 1768499636693, "isValid": true}]
       ],
       "fouls": [[{"time": 1768499548963, "isValid": true}], []],
       "readyStates": [true, true],
